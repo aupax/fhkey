@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FiberHome Key Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>FiberHome Key Generator</h1>
+    <div class="lead">
+      <strong>Syarat & Ketentuan :</strong><br><br>
+      • Format nama SSID : <b>fh_******</b> atau <b>fh_******_5G</b><br>
+      • Password masih default router (belum diganti)<br>
+      • Jika key/password salah maka ada kesalahan dalam format SSID atau password default sudah dirubah pemilik router
+    </div>
+
+    <label for="ssid">Masukkan SSID</label>
+    <input id="ssid" type="text" placeholder="Contoh: fh_9857d8" autocomplete="off" autocapitalize="none">
+
+    <div class="row">
+      <button id="go">Generate</button>
+    </div>
+
+    <label for="result">Generated Key</label>
+    <pre id="result"> -> Hasil akan muncul disini <- </pre>
+
+    <div class="row">
+      <button id="copy" disabled>Copy</button>
+    </div>
+
+    <div class="footer">
+      <a href="https://github.com/aupax" target="_blank" oncontextmenu="return false">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo"> 
+        GitHub
+      </a>
+      <div class="love">❤️ Made with love by Aupa</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
