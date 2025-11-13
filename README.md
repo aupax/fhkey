@@ -1,5 +1,6 @@
 # fhkey
 
-FiberHome Router passphrase generator
+**FiberHome Router passphrase generator**
 
-demo 
+**Live Demo:**(https://aupax.github.io/fhkey)
+
